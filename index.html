@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kho Phim & Nhạc Trực Tuyến</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🎬 Kho Phim & 🎵 Nhạc Trực Tuyến</h1>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Tìm kiếm phim hoặc nhạc..."
+      />
+    </header>
+
+    <main>
+      <section id="videoSection">
+        <h2>Phim & Video</h2>
+        <div id="videoList" class="grid-container">
+          <!-- Video sẽ được JS render -->
+        </div>
+      </section>
+
+      <section id="musicSection">
+        <h2>Nhạc MP3</h2>
+        <div id="musicList" class="grid-container">
+          <!-- Nhạc sẽ được JS render -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Kho Giải Trí | Kết nối với Firebase</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
